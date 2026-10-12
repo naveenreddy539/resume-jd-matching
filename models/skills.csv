@@ -1,0 +1,204 @@
+skill,variants,jd_count,resume_count
+accounting,accounting,94,187
+testing,test|testing,81,369
+reporting,reporting,79,282
+excel,excel|microsoft excel|ms excel,73,282
+finance,finance,63,112
+database,database|databases,49,308
+documentation,documentation,49,238
+sql,sql,49,212
+insurance,insurance,48,94
+problem solving,problem solving|problem-solving,46,154
+audit,audit|auditing|audits,45,192
+legal,law|legal,44,64
+python,python,43,96
+agile,agile,41,110
+architecture,architecture,41,102
+recruiting,hiring|recruiting,40,43
+tax,tax|taxes,40,109
+training,training,38,394
+compliance,compliance,38,212
+general ledger,general ledger|gl|ledger,37,106
+research,research,36,195
+leadership,leadership,36,162
+security,security,34,167
+java,java,34,136
+programming,programming,32,189
+troubleshooting,troubleshoot|troubleshooting,32,181
+microsoft office,microsoft office|microsoft office suite|ms office,31,245
+cpa,cpa,31,21
+budgeting,budget|budgeting|budgets,31,222
+aws,aws,31,51
+financial reporting,financial reporting|financial reports,29,83
+software development,software development,29,96
+business processes,business process|business processes,28,58
+mentoring,mentor|mentoring,27,77
+planning,planning,26,209
+sales,sales,26,243
+networking,network|networking|networks,24,205
+javascript,javascript,23,90
+azure,azure,23,28
+git,git,22,47
+maintenance,maintenance,22,216
+software engineering,software engineering,22,25
+automation,automation,21,130
+financial statements,financial statements,21,76
+erp,erp,20,42
+api,api,20,73
+balance sheet,balance sheet|balance sheets,19,60
+react,react,19,7
+coding,coding,19,101
+billing,billing,19,120
+oracle,oracle,18,157
+business intelligence,bi|business intelligence,18,94
+scripting,scripting|scripts,18,130
+payroll,payroll,18,119
+accruals,accrual|accruals,18,38
+accounts payable,accounts payable,16,92
+etl,etl,16,59
+jira,jira,15,46
+docker,docker,15,25
+data analysis,data analysis,15,98
+information technology,information technology,15,76
+quickbooks,quickbooks,15,74
+organizational skills,organizational skills,15,49
+web services,web services,14,52
+debugging,debugging,14,57
+operating systems,operating system|operating systems,14,109
+outlook,microsoft outlook|ms outlook|outlook,14,97
+time management,time management,13,72
+linux,linux,13,103
+analytical skills,analytical skills,13,40
+electrical engineering,electrical engineering,13,75
+scrum,scrum,13,67
+supervision,supervision,13,68
+spring,spring,12,40
+inventory,inventory,12,215
+spark,spark,12,31
+hardware,hardware,12,142
+bookkeeping,bookkeeping,11,37
+contracts,contracts,11,87
+credit,credit,11,116
+financial analysis,financial analysis,11,28
+salesforce,salesforce,11,29
+c++,c++,11,115
+project management,project management,11,165
+nosql,nosql,10,23
+microservices,microservices,10,4
+html,html|html5,10,110
+construction,construction,10,65
+forecasting,forecasting,10,57
+data warehouse,data warehouse|data warehousing,10,69
+accounting software,accounting software,10,40
+invoicing,invoicing,10,40
+powerpoint,microsoft powerpoint|ms powerpoint|powerpoint,10,149
+accounts receivable,accounts receivable,9,78
+c#,c#,9,69
+data management,data management,9,54
+unix,unix,9,102
+php,php,9,34
+postgresql,postgres|postgresql,9,33
+application development,application development,9,36
+tax returns,tax returns,8,38
+product development,product development,8,31
+jenkins,jenkins,8,38
+customer service,customer service,8,202
+cost accounting,cost accounting,8,13
+cash flow,cash flow,8,40
+machine learning,machine learning,8,26
+sap,sap,8,79
+scala,scala,8,18
+safety,safety,8,106
+team player,team player,8,97
+tableau,tableau,8,49
+kubernetes,kubernetes,7,11
+mysql,mysql,7,71
+pivot tables,pivot tables,7,30
+rest api,rest api,7,16
+banking,banking,7,47
+business analysis,business analysis,7,23
+continuous improvement,continuous improvement,7,22
+presentations,presentations,7,63
+sdlc,sdlc,7,62
+marketing,marketing,7,131
+hadoop,hadoop,7,38
+angular,angular,7,11
+bank reconciliations,bank reconciliations,7,30
+css,css|css3,7,58
+data modeling,data modeling,7,36
+accounting systems,accounting systems,6,20
+power bi,power bi,6,23
+big data,big data,6,42
+electronics,electronics,6,91
+github,github,6,22
+visio,microsoft visio|ms visio|visio,6,75
+windows,windows,6,193
+technical support,technical support,6,78
+s3,s3,6,26
+version control,version control,6,31
+visual studio,visual studio,6,58
+reconciling,reconciling,6,34
+gcp,gcp,6,6
+mechanical,mechanical,6,68
+kafka,kafka,6,21
+data mining,data mining,5,38
+shell,shell,5,59
+hr,hr,5,37
+web applications,web applications,5,34
+sql server,microsoft sql server|ms sql server|sql server,5,116
+sage,sage,5,24
+retail,retail,5,53
+quality assurance,quality assurance,5,88
+soap,soap,5,34
+node.js,node.js,5,8
+process improvement,process improvement,5,49
+data processing,data processing,5,27
+change management,change management,5,27
+apache,apache,5,52
+procurement,procurement,5,41
+perl,perl,5,39
+test cases,test cases,4,58
+transportation,transportation,4,25
+supply chain,supply chain,4,26
+svn,svn,4,31
+shipping,shipping,4,36
+cad,cad,4,38
+bootstrap,bootstrap,4,20
+expense reports,expense reports,4,30
+autocad,autocad,4,46
+.net,.net,4,41
+adobe,adobe,4,45
+data visualization,data visualization,4,34
+data analytics,data analytics,4,24
+spreadsheets,spreadsheets,4,83
+ruby,ruby,4,7
+requirements gathering,requirements gathering,4,22
+lean,lean,4,22
+terraform,terraform,4,5
+scheduling,scheduling,4,113
+backup,backup,3,54
+configuration management,configuration management,3,18
+fixed assets,fixed assets,3,42
+ec2,ec2,3,21
+crm,crm,3,29
+database management,database management,3,43
+golang,golang,3,1
+http,http,3,23
+hdfs,hdfs,3,24
+jquery,jquery,3,33
+power distribution,power distribution,3,24
+maven,maven,3,26
+negotiation,negotiation,3,22
+onboarding,onboarding,3,7
+hibernate,hibernate,3,20
+json,json,3,34
+j2ee,j2ee,3,28
+risk management,risk management,3,29
+regression,regression,3,70
+quality control,quality control,3,52
+stored procedures,stored procedures,3,56
+ssis,ssis,3,30
+statistics,statistics,3,39
+variance analysis,variance analysis,3,21
+web development,web development,3,19
+workday,workday,3,3

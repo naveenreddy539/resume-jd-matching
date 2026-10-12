@@ -1,0 +1,1 @@
+{"features": ["skill_coverage", "skill_jaccard", "matched_count", "missing_count", "jd_skill_count", "resume_skill_count", "jd_years", "resume_years", "exp_gap", "exp_meets", "jd_years_missing", "resume_years_missing", "tfidf_cosine", "embed_cosine"], "order": ["No Fit", "Potential Fit", "Good Fit"], "feature_set": "14 features + 32 PCA"}
