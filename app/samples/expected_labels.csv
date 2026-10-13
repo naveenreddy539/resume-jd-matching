@@ -1,0 +1,5 @@
+file,actual_label,predicted_in_evaluation,case
+resume_1.txt,No Fit,No Fit,correct
+resume_2.txt,Good Fit,Good Fit,correct
+resume_3.txt,Potential Fit,Potential Fit,correct
+resume_4.txt,Good Fit,No Fit,failure case

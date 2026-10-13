@@ -11,6 +11,8 @@ Reproduces notebooks 01 and 02:
 Run from the project root:   python -m src.data_loader
 Expected: train 5,285 | val 943 | test 1,759 rows; JDs 240 / 40 / 71; JD overlap 0.
 """
+import hashlib
+import json
 import re
 from pathlib import Path
 
@@ -22,6 +24,7 @@ from src.preprocess import SPLIT_PATTERN, clean_text
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data"
 DATASET = "facehuggerapoorv/resume-jd-match"
+VAL_JD_FILE = DATA_DIR / "val_jd_hashes.json"   # exact validation JDs used in the notebooks
 
 
 def load_raw():
@@ -47,7 +50,21 @@ def remove_label_noise(train):
     return train[~dups].reset_index(drop=True), int(conflict.sum()), int(dups.sum())
 
 
+def jd_hash(text):
+    return hashlib.sha256(text.encode("utf-8")).hexdigest()
+
+
 def jd_grouped_split(train):
+    """Hold out whole JDs for validation. Uses the exact validation JDs from the notebooks
+    (data/val_jd_hashes.json), so the split is identical across scikit-learn versions.
+    Falls back to StratifiedGroupKFold if that file is missing."""
+    if VAL_JD_FILE.exists():
+        val_ids = set(json.loads(VAL_JD_FILE.read_text()))
+        is_val = train["jd"].map(jd_hash).isin(val_ids)
+        found = train.loc[is_val, "jd"].nunique()
+        print(f"Validation JDs from {VAL_JD_FILE.name}: {found} of {len(val_ids)} found")
+        return train[~is_val].reset_index(drop=True), train[is_val].reset_index(drop=True)
+    print("val_jd_hashes.json not found: using StratifiedGroupKFold (may differ across versions)")
     sgkf = StratifiedGroupKFold(n_splits=7, shuffle=True, random_state=42)
     groups = train["jd"].factorize()[0]
     tr_idx, val_idx = next(sgkf.split(train, train["label"], groups))
