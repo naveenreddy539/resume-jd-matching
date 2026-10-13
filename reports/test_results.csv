@@ -1,0 +1,9 @@
+model,val_macro_f1,test_macro_f1,test_accuracy,ms_per_pair
+XGBoost hybrid,0.545,0.5,0.548,0.167
+Random Forest,0.498,0.458,0.505,0.207
+Sentence-BERT model,0.527,0.443,0.471,0.036
+Resume-only check,0.426,0.441,0.449,0.758
+Logistic Regression,0.463,0.431,0.449,0.004
+Keyword baseline,0.408,0.368,0.423,0.004
+DistilBERT,0.373,0.352,0.381,942.249
+Majority class,0.218,0.218,0.487,0.0

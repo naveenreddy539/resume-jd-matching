@@ -1,0 +1,10 @@
+model,precision_at_5,ndcg_at_5,jds_used
+Random Forest,0.656,0.8,61
+XGBoost hybrid,0.662,0.781,61
+Sentence-BERT model,0.646,0.748,61
+Logistic Regression,0.58,0.738,61
+Resume-only check,0.613,0.656,61
+DistilBERT,0.557,0.638,61
+Keyword baseline,0.528,0.634,61
+Keyword (raw TF-IDF cosine),0.528,0.634,61
+Random ranking (avg of 20),0.486,0.536,61
